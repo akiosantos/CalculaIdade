@@ -28,5 +28,5 @@ function calculateAge() {
     var timeUntilNextBirthday = Math.ceil((nextBirthday - currentDate) / (1000 * 60 * 60 * 24));
 
     document.getElementById("age").innerHTML = "Sua idade é " + age + " anos, " + monthDiff + " meses e " + dayDiff + " dias.";
-    document.getElementById("next-birthday").innerHTML = "Faltam " + timeUntilNextBirthday + " dias para o seu próximo aniversário.";
+    document.getElementById("next-birthday").innerHTML = "Faltam " + timeUntilNextBirthday + " dias para o seu aniversário.";
 }
